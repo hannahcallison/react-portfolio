@@ -1,7 +1,9 @@
 .header h1 {
-  font-size: 50px;
+  font-size: 60px;
   background-color: var(--light);
   color: var(--bg-colordark);
-  padding: 15px;
+  padding: 4vh 0 2vh 0;
   text-align: center;
+  background-color: #E6ECFF;
+  margin: 3vh 1vw 0 1vw;
 }

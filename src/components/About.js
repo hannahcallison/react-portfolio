@@ -7,7 +7,7 @@ function About() {
   return (
     <section id='about'>
       <div id='profPic'>
-        <img src={require('../assets/selfie.PNG')} alt='Hannah Callison Profile Picture' />
+        <img src={require('../assets/profilepic.png')} alt='Hannah Callison Profile Picture' />
       </div>
       <div id='profAbout'>
         <p>A passionate biologist with a newfound love for coding. Hoping one day to combine forces and make a positive impact on the biotech industry.

@@ -2,13 +2,28 @@
     text-align: center;
 }
 
+#projects div {
+    margin: 3vh 1vw;
+}
+
 #projectCard {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding: 20px 10px;
+    background-color: #E6DAEA;
 }
 
 #projectCard img {
     max-width: 400px;
-    margin: 20px;
+    margin: 5px;
+}
+
+.projectTitle {
+    flex-direction: column;
+    width: 500px;
+}
+
+.projectLink {
+    flex-direction: column;
 }

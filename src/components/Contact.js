@@ -9,7 +9,7 @@ function Contact () {
         <a href="mailto:hgcallison7@gmail.com">hgcallison7@gmail.com</a>
         <a href="https://github.com/hannahcallison" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/hannahcallison" target="_blank">LinkedIn</a>
-        <a id='resume' href="assets/HCRes copy.pdf" target="_blank">Resume</a>
+        <a id='resume' href={require("../assets/HCRes.pdf")} target="_blank">Resume</a>
       </nav>
     );
   }

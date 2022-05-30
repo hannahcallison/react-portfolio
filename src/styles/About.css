@@ -1,19 +1,24 @@
 #about{
-    margin: 5vh 5vw;
+    margin: 3vh 1vw;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-items: center;
+    background-color: #FFE9E1;
+    padding: 5vw 5vw;
 }
 
 #profAbout {
     font-size: large;
-    padding: 0 5vw;
+    padding: 0 5vw 0 0;
+
 }
 
 #profPic img {
     max-width: 300px;
     min-width: none;
     border-radius: 30px;
+    box-shadow: .5rem 0.5rem #AB15A4, -0.5rem -0.5rem #E92477;
 }
 
 #about a {
