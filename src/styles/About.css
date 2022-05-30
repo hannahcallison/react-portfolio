@@ -1,0 +1,35 @@
+#about{
+    margin: 5vh 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#profAbout {
+    font-size: large;
+    padding: 0 5vw;
+}
+
+#profPic img {
+    max-width: 300px;
+    min-width: none;
+    border-radius: 30px;
+}
+
+#about a {
+    padding: 0 2vw 0 0;
+    color: black;
+    text-decoration: none;
+}
+
+#about a:hover{
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 759px)  {
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+}

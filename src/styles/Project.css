@@ -1,0 +1,14 @@
+#projects {
+    text-align: center;
+}
+
+#projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projectCard img {
+    max-width: 400px;
+    margin: 20px;
+}
