@@ -24,7 +24,7 @@
 #about a {
     padding: 0 2vw 0 0;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #about a:hover{

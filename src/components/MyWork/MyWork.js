@@ -1,9 +1,9 @@
 import React from 'react';
-import { projects } from '../data';
+import { projects } from '../../data';
 
 
 // Here we are importing a CSS file as a dependency
-import '../styles/Project.css';
+import '../MyWork/MyWork.css';
 
 function Project() {
   return (
@@ -11,10 +11,10 @@ function Project() {
       {projects.map((project) => (
         <div id="projectCard">
           <img
-            alt="gallery"
             src={project.image}
+            alt="project screenshots"
           />
-          <div class='projectTitle'>
+          <div className='projectTitle'>
           <h1>
             {project.title}
           </h1>
@@ -22,10 +22,10 @@ function Project() {
             {project.subtitle}
           </h2>
           </div>
-          <div class='projectLink'>
-          <a href={`${project.gitLink}`} target="_blink"><img src={require('../assets/github.png')} width='30' height='30'></img></a>
+          <div className='projectLink'>
+          <a href={`${project.gitLink}`} target="_blank" rel="noreferrer"><img src='../assets/github.png' alt="" width='30' height='30'></img></a>
           <br></br>
-          <a href={`${project.deployLink}`} target="_blank"><img src={require('../assets/rocket.png')} width='60' height='60'></img></a>
+          <a href={`${project.deployLink}`} target="_blank"  rel="noreferrer"><img src='..//assets/rocket.png' alt="" width='60' height='60'></img></a>
           </div>
           <p>{project.description}</p>
         </div>

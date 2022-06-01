@@ -1,23 +1,23 @@
 import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Header from './components/Header/Header';
+import About from './components/About/About'
+import MyWork from './components/MyWork/MyWork';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer'
 
 import './styles/App.css';
 
 
 function App() {
+
   return (
-    <main>
+    <div className="App">
       <Header />
       <Contact />
-      {/* <Navigation /> */}
       <About />
-      <Project />
+      <MyWork />
       <Footer />
-    </main>
+    </div>
   );
 }
 

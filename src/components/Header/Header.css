@@ -2,8 +2,11 @@
   font-size: 60px;
   background-color: var(--light);
   color: var(--bg-colordark);
-  padding: 4vh 0 2vh 0;
+  padding: 4vh 0 2vh 4vw;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   background-color: #E6ECFF;
   margin: 3vh 1vw 0 1vw;
 }

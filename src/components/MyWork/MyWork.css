@@ -27,3 +27,10 @@
 .projectLink {
     flex-direction: column;
 }
+
+@media screen and (max-width: 759px)  {
+    #projectCard{
+        flex-direction: column;
+        padding: 5px;
+    }
+}

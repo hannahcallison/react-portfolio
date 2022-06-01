@@ -1,12 +1,15 @@
-
-nav {
+.contact {
     text-align: center;
     background-color: #E6ECFF;
     margin: 0vh 1vw 3vh 1vw;
     padding-bottom: 4vh;
 }
+
+.contact a{
+    text-decoration: underline;
+}
+
 nav a {
-    text-decoration: none;
     color: black;
     padding-right: 2vw;
 }
