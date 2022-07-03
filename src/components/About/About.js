@@ -13,7 +13,7 @@ function About() {
         <p>A passionate biologist with a newfound love for coding. Hoping one day to combine forces and make a positive impact on the biotech industry.
           Currently, working in hospitality as an experienced Wine Educator with a demonstrated history in the restaurant industry. Skilled in People Management, Communication, Teamwork, Customer Interaction, and Team Management. Strong operations professional with a Bachelor's degree focused in Biology/Biological Sciences from Arizona State University.
         </p>
-        <a href="#contactMe">Contact Me</a>
+        <a href="#contact">Contact Me</a>
       </div>
     </section>
   );

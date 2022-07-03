@@ -10,7 +10,7 @@ function Contact () {
         <a href="https://github.com/hannahcallison" target="_blank" rel="noreferrer">GitHub</a>
         <a href="#projects">My Work</a>
         <a href="https://www.linkedin.com/in/hannahcallison" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a id='resume' href="../assets/HCRes.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a id='resume' href="../assets/HCResume.pdf" target="_blank" rel="noreferrer">Resume</a>
       </nav>
     );
   }
